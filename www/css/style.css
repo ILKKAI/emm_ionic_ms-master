@@ -1,0 +1,199 @@
+/* Empty. Add your own CSS if you like */
+
+html,body{
+	height:100%;
+	font-family: microsoft yahei;
+}
+.login-content{
+	background: #f3f3f3;
+	height: 100%;
+}
+.row{
+	padding: 0;
+	height: 100%;
+
+}
+.login-left{
+	background: #da340a;
+	height: 100%;
+}
+.logo{
+	height:100%;
+	width:100%;
+	text-align: center;
+}
+.logo img{
+	width:50%;
+	vertical-align: middle;
+}
+.logo:after{
+	content:".";
+	display:inline-block;
+	height:100%;
+	vertical-align:middle;
+}
+
+.login-main{
+	background: #fff;
+	height: 100%;
+}
+
+.login-box{
+	width: 76%;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	margin-top: -120px;
+}
+.welecome-title{
+	font-size: 2em;
+	border-left:2px solid #da340a;
+	padding-left: 20px;
+	line-height: 1.2;
+}
+.item-border{
+	border-bottom: 1px solid #b5b5b5;
+	margin-top: 25px;
+}
+
+.ion-name{
+	background: url("../images/icon_name.png") no-repeat;
+}
+.ion-password{
+	background: url("../images/icon_password.png") no-repeat;
+}
+.item-input .icon.ion-id{
+	background: url("../images/icon_id.png") no-repeat;
+	display: block;
+	background-size: 100%;
+	min-width: 20px;
+	height: 16px;
+	margin-right: 10px;
+}
+
+.ion-name,.ion-password{
+	display: block;
+	background-size: 100%;
+	height: 20px;
+	margin-right: 10px;
+}
+.item-input input{
+	font-size: 1.2em;
+	color: #da6542;
+}
+.login-text-right{
+	text-align: right;
+	margin-top: 10px;
+	color: #a3a3a3;
+}
+.login-text-right:hover {
+	color: #000;
+}
+.login-right{
+	height: 100%;
+}
+
+
+.bg{
+	background:url("../images/homebg.png") repeat;
+	background-size: 10%;
+}
+.home-header{
+	background: #da340a;
+	padding:0 20px 5px 20px;
+	color: #fff;
+}
+.home-logo{
+	padding-top: 30px;
+}
+.home-logo img{
+	width: 10em;
+	vertical-align:middle;
+	margin-right: 10px;
+}
+.home-logo span{
+	font-size: 1.2em;
+	vertical-align: middle;
+}
+.user{
+	text-align: right;
+	padding-top: 20px;
+	vertical-align: middle;
+}
+.user img{
+	width: 4em;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.user-next{
+	margin-left: 8px;
+	display: inline-block;
+}
+.user-next img{
+	width: 1.8em;
+}
+.row.info-view{
+	background: rgba(255,255,255,0.8);
+	margin-top: 0;
+	padding: 10px;
+	box-shadow:0 1px 3px #efefef ;
+	color: #999;
+	margin-bottom: 20px;
+}
+.date{
+	font-size: 1.2em;
+}
+.user-info li{
+	line-height: 2;
+}
+.item-demo .col img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 460px) {
+	.login-left{
+		display: none;
+	}
+	.login-main {
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 80%;
+		-moz-box-flex: 0;
+		-moz-flex: 0 0 80%;
+		-ms-flex: 0 0 80%;
+		flex: 0 0 80%;
+		max-width: 80%;
+	}
+	.login-right{
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 20%;
+		-moz-box-flex: 0;
+		-moz-flex: 0 0 20%;
+		-ms-flex: 0 0 20%;
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
+
